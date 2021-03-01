@@ -1,0 +1,51 @@
+#message {
+    position: absolute;
+    width: 810px;
+    height: 70px;
+    left: 114px;
+    top: 315px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    
+    align-items: center;
+    text-align: center;
+
+    color: #222222;
+}
+
+#reset {
+    position: absolute;
+    width: 95px;
+    height: 30px;
+    left: 471px;
+    top: 400px;
+    
+
+    background: #2EE5AC;
+    border: 1px solid #2EE5AC;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#reset label {
+    position: absolute;
+    width: 95px;
+    height: 30px;
+    margin-top: 6px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}

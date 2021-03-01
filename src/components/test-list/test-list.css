@@ -1,0 +1,44 @@
+.test-list-titles {
+    position: absolute;
+    width: 35px;
+    height: 15px;
+    left: 63px;
+    top: 196px;
+    
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    
+    
+    text-transform: uppercase;
+
+    color: #999999;
+}
+
+.test-list-titles div {
+    margin-right: 100px;
+}
+
+.test-list-titles #name {
+    margin-right: 350px;
+}
+
+.test-list-titles div button {
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+.test-list-titles div button img {
+    position: absolute;
+}
+
+.test-list-items {
+    position: absolute;
+    left: 48px;
+    top: 221px;
+}

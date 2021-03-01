@@ -1,0 +1,104 @@
+.card {
+    margin-bottom: 5px;
+    width: 954px;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    border-left: 4px solid;
+
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card #name {
+    width: 380px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 25px;
+    align-items: center;
+
+    color: #474747;
+}
+
+.card #type {
+    width: 126px;
+    height: 30px;
+    margin-top: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+
+    color: #5C5C5C;
+}
+
+.card #status {
+    width: 140px;
+    height: 30px;
+    margin-top: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+
+    color: #5C5C5C;
+    
+    text-transform: capitalize;
+}
+
+.card #site {
+    width: 117px;
+    height: 30px;
+    margin-top: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    
+    align-items: center;
+
+    color: #5C5C5C;
+}
+
+.card #isDrafted {
+    width: 95px;
+    height: 30px;
+    margin-left: 60px;
+
+    /*border-radius: 10px;*/
+}
+
+.card #isDrafted button {
+    position: absolute;
+    width: 95px;
+    height: 30px;
+    
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 20px;
+}

@@ -1,0 +1,39 @@
+.result-info {
+    position: absolute;
+    width: 506px;
+    height: 20px;
+    left: 48px;
+    top: 85px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #222222;
+}
+
+.result-info-link {
+    position: absolute;
+    left: 50px;
+    top: 721px;
+}
+
+.result-info-link #arrow-left {
+    color: #222222;
+    transform: rotate(90deg);
+}
+
+.result-info-link #back {
+    margin-left: 18px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+
+    color: #222222;
+}
